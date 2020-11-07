@@ -4,6 +4,7 @@ import Link from 'next/link'
 import Layout from '../components/layout.js'
 import SlowLink from '../utils/SlowLink.js'
 import {content} from '../text-content.js'
+import ReactPlayer from 'react-player'
 
 export default function Home(){
 
@@ -76,17 +77,25 @@ export default function Home(){
         </div>
 
       </section>
-
+      
       {/* example with text-content.js */}
       <section>
         <div className={styles.work}>
             <div className={styles.titles}>{content.happy_cattle.title}</div>
             <div className={styles.blurb}>{content.happy_cattle.text1}</div>
-        </div>
-        
+        </div>        
       </section>
-      
-      
+
+      {/* video-embedding example */}
+      <section className={styles.work}>
+          <ReactPlayer
+            url="https://youtu.be/UC5IqjUYRHQ"
+            controls
+            playbackRate={2}
+            width="896px"
+            height="504px"
+          />
+      </section>      
 
       </main>
 
