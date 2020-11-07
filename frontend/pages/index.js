@@ -12,6 +12,12 @@ export default function Home() {
     <Layout>
       <main>
 
+        <section className={styles.sectionBlock}>
+          <h2 className={styles.sectionTitle}>{content.happy_cattle.title}</h2>
+          <p className={styles.sectionText}>{content.happy_cattle.text1}</p>
+        </section>
+
+
         <section className={styles.topPanel}>
 
           {/* left */}

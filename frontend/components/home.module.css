@@ -1,3 +1,27 @@
+.sectionBlock{
+  margin: 60px;
+}
+
+.sectionTitle{
+  font-weight: bold;
+  font-size: 55px;
+  width: 100%;
+  margin: 30px;
+  text-align: center;
+}
+
+.sectionText {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 53px;
+  letter-spacing: 0.02em;
+  color: #000000;
+  width: 90%;
+  text-align: justify;
+  margin: 20px;
+}
+
+
 .topPanel{
   display: flex;
   flex-direction: row;
