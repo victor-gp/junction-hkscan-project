@@ -3,6 +3,7 @@ import styles from '../components/home.module.css'
 import Link from 'next/link'
 import Layout from '../components/layout.js'
 import SlowLink from '../utils/SlowLink.js'
+import ReactPlayer from 'react-player'
 
 export default function Home(){
 
@@ -75,6 +76,18 @@ export default function Home(){
         </div>
 
       </section>
+      
+      {/* video-embedding example */}
+      <section className={styles.work}>
+          <ReactPlayer
+            url="https://youtu.be/UC5IqjUYRHQ"
+            controls
+            playbackRate={2}
+            width="896px"
+            height="504px"
+          />
+      </section>
+
 
       {/* PROJECTS */}
       
