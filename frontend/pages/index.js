@@ -3,6 +3,7 @@ import styles from '../components/home.module.css'
 import Link from 'next/link'
 import Layout from '../components/layout.js'
 import SlowLink from '../utils/SlowLink.js'
+import {content} from '../text-content.js'
 
 export default function Home(){
 
@@ -76,7 +77,15 @@ export default function Home(){
 
       </section>
 
-      {/* PROJECTS */}
+      {/* example with text-content.js */}
+      <section>
+        <div className={styles.work}>
+            <div className={styles.titles}>{content.happy_cattle.title}</div>
+            <div className={styles.blurb}>{content.happy_cattle.text1}</div>
+        </div>
+        
+      </section>
+      
       
 
       </main>
