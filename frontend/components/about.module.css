@@ -1,0 +1,678 @@
+.topPanel{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 78px;
+  margin-bottom: 120px;
+}
+
+.about {
+  width: 100%;
+  margin-left: auto;
+  max-width: 700px;
+  padding-bottom: 20px;
+  margin-right: 45px;
+
+}
+
+.titleAbout{
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 69px;
+  letter-spacing: 0.02em;
+
+  margin-bottom: 40px;
+}
+
+.blurb {
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 37px;
+  letter-spacing: 0.02em;
+
+}
+
+.me{
+  width: 100%;
+  margin-left: 50px;
+  margin-right: auto;
+  max-width: 500px;
+}
+
+.captions{
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.05em;
+
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #000000;
+}
+
+
+@media screen and (max-width:575.98px){
+  .topPanel{
+    flex-direction: column-reverse;
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+
+  .titleAbout{
+    font-size: 40px;
+    line-height: 49px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+
+  .about{
+    margin-left: inherit;
+    margin-right: inherit;
+    max-width: 85%;
+    padding-right: 0vw;
+    padding-bottom: 40px;
+  }
+
+  .blurb{
+    font-size: 17px;
+    line-height: 30px;
+  }
+
+  .me{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+  }
+
+  .captions{
+    font-size: 16px;
+    line-height: 23px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+
+}
+
+@media screen and (min-width:576px) and (max-width:767.98px){
+  .topPanel{
+    flex-direction: column-reverse;
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+
+  .titleAbout{
+    font-size: 45px;
+    line-height: 54px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+
+  .about{
+    margin-left: inherit;
+    margin-right: inherit;
+    max-width: 85%;
+    padding-right: 0vw;
+    padding-bottom: 40px;
+  }
+
+  .blurb{
+    font-size: 20px;
+    line-height: 33px;
+  }
+
+  .me{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 70%;
+  }
+
+  .captions{
+    font-size: 19px;
+    line-height: 26px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+}
+
+@media screen and (min-width:768px) and (max-width:991.98px){
+  .topPanel{
+    flex-direction: column-reverse;
+    margin-top: 0px;
+    margin-bottom: 70px;
+  }
+
+  .titleAbout{
+    font-size: 50px;
+    line-height: 59px;
+    margin-top: 45px;
+    margin-bottom: 30px;
+  }
+
+  .about{
+    margin-left: inherit;
+    margin-right: inherit;
+    max-width: 83%;
+    padding-right: 0vw;
+    padding-bottom: 40px;
+  }
+
+  .blurb{
+    font-size: 23px;
+    line-height: 38px;
+  }
+
+  .me{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60%;
+  }
+
+  .captions{
+    font-size: 20px;
+    line-height: 27px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+  }
+
+}
+
+@media screen and (min-width:992px) and (max-width:1199.98px){
+  .topPanel{
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 78px;
+    margin-bottom: 100px;
+    max-width: 90%;
+  }
+
+  .about {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-bottom: 20px;
+  }
+
+  .titleAbout{
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 59px;
+    letter-spacing: 0.02em;
+
+    margin-bottom: 40px;
+  }
+
+  .blurb {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 31px;
+    letter-spacing: 0.02em;
+
+  }
+
+  .me{
+    width: 100%;
+    margin-left: 40px;
+    margin-right: 0px;
+    max-width: 40%;
+  }
+
+  .captions{
+    font-size: 16px;
+    line-height: 24px;
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+}
+
+@media screen and (min-width:1200px) and (max-width:1350px){
+  .topPanel{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 78px;
+    margin-bottom: 110px;
+  }
+
+  .about {
+    width: 100%;
+    margin-left: auto;
+    max-width: 600px;
+    padding-bottom: 20px;
+    margin-right: 40px;
+
+  }
+
+  .titleAbout{
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 61px;
+    letter-spacing: 0.02em;
+
+    margin-bottom: 40px;
+  }
+
+  .blurb {
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+
+  }
+
+  .me{
+    width: 100%;
+    margin-left: 40px;
+    margin-right: auto;
+    max-width: 450px;
+  }
+
+  .captions{
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
+
+
+
+.favs{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 130px;
+}
+
+.writtenFavs{
+  width: 100%;
+  margin-left: auto;
+  max-width: 850px;
+  margin-right: 30px;
+}
+
+.titleFavorites{
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 57px;
+  letter-spacing: 0.02em;
+
+  margin-bottom: 40px;
+}
+
+.favorite{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.icon{
+  font-size: 40px;
+}
+
+.favText{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 31px;
+  letter-spacing: 0.02em;
+  margin-left: 30px;
+}
+
+.location{
+  width: 100%;
+  margin-right: auto;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.location > img{
+  width: 80%;
+}
+
+.locationText{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.locationIcon{
+  font-size: 20px;
+}
+
+.smCaption{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+  margin-left: 8px;
+}
+
+
+@media screen and (max-width:575.98px) {
+  .favs{
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 85%;
+    margin-bottom: 90px;
+  }
+
+  .writtenFavs{
+    margin-bottom: 40px;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .titleFavorites{
+    font-size: 35px;
+    line-height: 43px;
+    margin-bottom: 30px;
+  }
+
+  .favorite{
+    margin-bottom: 4vw;
+  }
+
+  .icon{
+    font-size: 25px;
+  }
+
+  .favText{
+    font-size: 18px;
+    line-height: 23px;
+    margin-left: 2.5vw;
+  }
+
+  .location{
+    max-width: 80%;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0vw;
+  }
+
+  .location > img{
+    width: 100%;
+  }
+
+  .locationIcon{
+    font-size: 15px;
+  }
+
+  .smCaption{
+    font-size: 17px;
+    line-height: 23px;
+  }
+
+}
+
+@media screen and (min-width: 576px) and (max-width:767.98px) {
+  .favs{
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 85%;
+    margin-bottom: 90px;
+  }
+
+  .writtenFavs{
+    margin-bottom: 40px;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .titleFavorites{
+    font-size: 38px;
+    line-height: 46px;
+    margin-bottom: 30px;
+  }
+
+  .favorite{
+    margin-bottom: 4vw;
+  }
+
+  .icon{
+    font-size: 30px;
+  }
+
+  .favText{
+    font-size: 20px;
+    line-height: 25px;
+    margin-left: 2.5vw;
+  }
+
+  .location{
+    max-width: 80%;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0vw;
+  }
+
+  .location > img{
+    width: 100%;
+  }
+
+  .locationText{
+    margin-top: 15px;
+  }
+
+  .locationIcon{
+    font-size: 20px;
+  }
+
+  .smCaption{
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+}
+
+@media screen and (min-width: 768px) and (max-width:991.98px) {
+  .favs{
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 85%;
+    margin-bottom: 90px;
+  }
+
+  .writtenFavs{
+    margin-bottom: 40px;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 30px;
+  }
+
+  .titleFavorites{
+    font-size: 35px;
+    line-height: 43px;
+    margin-bottom: 30px;
+  }
+
+  .favorite{
+    margin-bottom: 4vw;
+  }
+
+  .icon{
+    font-size: 25px;
+  }
+
+  .favText{
+    font-size: 20px;
+    line-height: 25px;
+    margin-left: 2.5vw;
+  }
+
+  .location{
+    max-width: 40%;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0vw;
+  }
+
+  .location > img{
+    width: 100%;
+  }
+
+  .locationText{
+    margin-top: 15px;
+  }
+
+  .locationIcon{
+    font-size: 15px;
+  }
+
+  .smCaption{
+    font-size: 17px;
+    line-height: 22px;
+  }
+
+}
+
+@media screen and (min-width: 992px) and (max-width:1199.98px) {
+  .favs{
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+    margin-bottom: 90px;
+  }
+
+  .writtenFavs{
+    margin-bottom: 40px;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 30px;
+  }
+
+  .titleFavorites{
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 30px;
+  }
+
+  .favorite{
+    margin-bottom: 4vw;
+  }
+
+  .icon{
+    font-size: 25px;
+  }
+
+  .favText{
+    font-size: 25px;
+    line-height: 32px;
+    margin-left: 2.5vw;
+  }
+
+  .location{
+    max-width: 40%;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0vw;
+  }
+
+  .location > img{
+    width: 100%;
+  }
+
+  .locationText{
+    margin-top: 15px;
+  }
+
+  .locationIcon{
+    font-size: 15px;
+  }
+
+  .smCaption{
+    font-size: 22px;
+    line-height: 27px;
+  }
+
+}
+
+@media screen and (min-width:1200px) and (max-width: 1350px){
+  .favs{
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 90px;
+  }
+
+  .writtenFavs{
+    margin-bottom: 40px;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 30px;
+    max-width: 730px;
+  }
+
+  .titleFavorites{
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 35px;
+  }
+
+  .favorite{
+    margin-bottom: 3vw;
+  }
+
+  .icon{
+    font-size: 30px;
+  }
+
+  .favText{
+    font-size: 23px;
+    line-height: 31px;
+    margin-left: 2vw;
+  }
+
+  .location{
+    max-width: 350px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0vw;
+  }
+
+  .location > img{
+    width: 100%;
+  }
+
+  .locationText{
+    margin-top: 15px;
+  }
+
+  .locationIcon{
+    font-size: 15px;
+  }
+
+  .smCaption{
+    font-size: 20px;
+    line-height: 25px;
+  }
+}

@@ -1,0 +1,492 @@
+.topPanel{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 78px;
+  margin-bottom: 80px;
+}
+
+.summary {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1290px;
+  border-left: 20px solid #FC3F42;
+  padding-left: 70px;
+}
+
+.title{
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 69px;
+  letter-spacing: 0.02em;
+  margin-bottom: 25px;
+}
+
+.subtitle{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 38px;
+  letter-spacing: 0.02em;
+  margin-bottom: 35px;
+}
+
+.quickNotes{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 40px;
+}
+
+.note{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.noteText{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  letter-spacing: 0.02em;
+  margin-left: 10px;
+}
+
+.icon{
+  font-size: 20px;
+}
+
+.description{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 160%;
+  letter-spacing: 0.02em;
+  margin-bottom: 20px;
+}
+
+.photo{
+  width: 100%;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.captions{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 37px;
+
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.button{
+  width: 15vw;
+  height: 4vw;
+  max-width: 220px;
+  max-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  background: #FC3F42;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.grow {
+  transition: all .2s ease-in-out;
+}
+
+.grow:hover{
+  transform: scale(1.03);
+  position: relative;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+}
+
+.backToWork{
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-left: 15px;
+}
+
+@media screen and (max-width:575.98px){
+  .topPanel{
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+
+  .summary{
+    margin-left: 15px;
+    margin-right: inherit;
+    max-width: 90%;
+    padding-left: 20px;
+    border-left-width: 12px;
+  }
+
+  .title{
+    font-size: 40px;
+    line-height: 49px;
+    margin-bottom: 20px;
+  }
+
+  .subtitle{
+    font-size: 21px;
+    line-height: 29px;
+    margin-bottom: 30px;
+  }
+
+  .quickNotes{
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+
+  .note{
+    align-items: flex-start;
+    margin-right: 30px;
+    margin-bottom: 12px;
+  }
+
+  .noteText{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    margin-left: 10px;
+  }
+
+  .icon{
+    font-size: 16px;
+  }
+
+  .description{
+    font-size: 17px;
+    margin-bottom: 12px;
+  }
+
+  .photo{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    margin-bottom: 20px;
+  }
+
+  .captions{
+    font-size: 17px;
+    line-height: 25px;
+
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+
+  .button{
+    width: 48vw;
+    height: 13vw;
+    max-width: 190px;
+    max-height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+  }
+
+  .backToWork{
+    font-size: 17px;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (min-width:576px) and (max-width:767.98px) {
+  .topPanel{
+    margin-top: 0px;
+    margin-bottom: 50px;
+  }
+
+  .summary{
+    margin-left: 30px;
+    margin-right: inherit;
+    max-width: 90%;
+    padding-left: 25px;
+    border-left-width: 15px;
+  }
+
+  .title{
+    font-size: 45px;
+    line-height: 54px;
+    margin-bottom: 20px;
+  }
+
+  .subtitle{
+    font-size: 25px;
+    line-height: 33px;
+    margin-bottom: 35px;
+  }
+
+  .quickNotes{
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+
+  .note{
+    align-items: flex-start;
+    margin-right: 30px;
+    margin-bottom: 12px;
+  }
+
+  .noteText{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    letter-spacing: 0.02em;
+    margin-left: 10px;
+  }
+
+  .icon{
+    font-size: 18px;
+  }
+
+  .description{
+    font-size: 20px;
+    margin-bottom: 12px;
+  }
+
+  .photo{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    margin-bottom: 20px;
+  }
+
+  .captions{
+    font-size: 18px;
+    line-height: 26px;
+
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .button{
+    width: 48vw;
+    height: 13vw;
+    max-width: 190px;
+    max-height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 90px;
+  }
+
+  .backToWork{
+    font-size: 17px;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (min-width:768px) and (max-width:991.98px) {
+  .topPanel{
+    margin-top: 0px;
+    margin-bottom: 80px;
+  }
+
+  .summary{
+    margin-left: 35px;
+    margin-right: inherit;
+    max-width: 90%;
+    padding-left: 40px;
+    border-left-width: 16px;
+  }
+
+  .title{
+    font-size: 50px;
+    line-height: 59px;
+    margin-bottom: 30px;
+  }
+
+  .subtitle{
+    font-size: 27px;
+    line-height: 37px;
+    margin-bottom: 35px;
+  }
+
+  .quickNotes{
+    flex-direction: row;
+    margin-bottom: 30px;
+  }
+
+  .note{
+    align-items: flex-start;
+    margin-bottom: 12px;
+    margin-right: 20px;
+  }
+
+  .noWrap{
+    flex-shrink: 0;
+  }
+
+  .noteText{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    letter-spacing: 0.02em;
+    margin-left: 10px;
+  }
+
+  .icon{
+    font-size: 18px;
+  }
+
+  .description{
+    font-size: 23px;
+    margin-bottom: 12px;
+  }
+
+  .photo{
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    margin-bottom: 20px;
+  }
+
+  .captions{
+    font-size: 19px;
+    line-height: 27px;
+
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .button{
+    width: 48vw;
+    height: 13vw;
+    max-width: 190px;
+    max-height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .backToWork{
+    font-size: 17px;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (min-width:992px) and (max-width:1350px) {
+  .topPanel{
+    margin-top: 0px;
+    margin-bottom: 80px;
+  }
+
+  .summary{
+    margin-left: 45px;
+    margin-right: inherit;
+    max-width: 90%;
+    padding-left: 45px;
+    border-left-width: 16px;
+  }
+
+  .title{
+    font-size: 50px;
+    line-height: 59px;
+    margin-bottom: 30px;
+  }
+
+  .subtitle{
+    font-size: 28px;
+    line-height: 38px;
+    margin-bottom: 35px;
+  }
+
+  .quickNotes{
+    flex-direction: row;
+    margin-bottom: 30px;
+  }
+
+  .note{
+    align-items: flex-start;
+    margin-bottom: 12px;
+  }
+
+  .noWrap{
+    flex-shrink: 0;
+  }
+
+  .noteText{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    letter-spacing: 0.02em;
+    margin-left: 10px;
+  }
+
+  .icon{
+    font-size: 19px;
+  }
+
+  .description{
+    font-size: 23px;
+    margin-bottom: 12px;
+  }
+
+  .photo{
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    margin-bottom: 20px;
+  }
+
+  .captions{
+    font-size: 23px;
+    line-height: 31px;
+
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    margin-top: 18px;
+    margin-bottom: 18px;
+  }
+
+  .button{
+    width: 40vw;
+    height: 11vw;
+    max-width: 210px;
+    max-height: 55px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .backToWork{
+    font-size: 17px;
+    margin-left: 10px;
+  }
+
+}
