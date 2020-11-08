@@ -1,0 +1,22 @@
+.dataBox {
+    width: 4em;
+    font-size: 40px;
+    text-align: center;
+    margin: 10px;
+    float: left;
+}
+.div1 {
+    border: 4px solid black;
+    font-size: 1em;
+    font-weight: bold;
+}
+.div2 {
+    border: 3px solid black;
+    margin-top: -1px;
+}
+.amount{
+    font-size: 1em;
+}
+.unit {
+    font-size: 0.4em;
+}

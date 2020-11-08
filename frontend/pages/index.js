@@ -5,6 +5,7 @@ import Layout from '../components/layout.js'
 import SlowLink from '../utils/SlowLink.js'
 import { content } from '../text-content.js'
 import VideoPlayer from '../components/video-player.js'
+import { DataBox } from '../components/data-boxes.js'
 
 export default function Home() {
 
@@ -23,8 +24,13 @@ export default function Home() {
           <p className={styles.sectionText}>{content.happy_cattle.text2}</p>
           <VideoPlayer video_url="https://youtu.be/08TI1RKj54g" />
           <p className={styles.sectionText}>{content.happy_cattle.text3}</p>
-          {/* TODO */}
-          <p className={styles.sectionText}>(three data boxes pending)</p>
+          <div className={styles.dataBoxesOut}>
+            <div className={styles.dataBoxesIn}>
+              <DataBox agent="HKScan" amount="1.125" unit="Kg CO2eq" />
+              <DataBox agent="Europe" amount="1.225" unit="average Kg CO2eq" />
+              <DataBox agent="World" amount="1.325" unit="average Kg CO2eq" />
+            </div>
+          </div>
           <p className={styles.sectionText}>{content.happy_cattle.text4}</p>
           <VideoPlayer video_url="https://youtu.be/fL9xqqR5ziY" />
         </section>
@@ -66,7 +72,6 @@ export default function Home() {
           <p className={styles.sectionText}>footer elements pending</p>
           <p className={styles.sectionText}>everything past here is reference code for me, I will remove it later on</p>
         </section>
-
 
 
         <section className={styles.topPanel}>
