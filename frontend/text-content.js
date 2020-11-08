@@ -11,13 +11,13 @@ const content = {
         text1: 'The great pleasure you feel when eating that BBQ, that lamb chop, that entrecôte and all the other dishes that you love so much, it’s all about knowing your Meats.',
     },
     our_meats: {
-        title: 'Our Meats',
+        title: 'Our Meats:',
     },
     our_cuts: {
-        title: 'Our Cuts',
+        title: 'Our Cuts:',
     },
     our_cooking_tips: {
-        title: 'Our Cooking Tips',
+        title: 'Our Cooking Tips:',
         text1: 'How do you like your meat? Rare, Well Done or in between? Here is a hint to get your meat cooked just as you prefer.',
         text2: 'Do you need some ideas for your weekend menu ? Why not cooking a Roasted Whole Beef with Garlic and Herbs ? Or, if you prefer, check the rest of our recipes.',
     },
