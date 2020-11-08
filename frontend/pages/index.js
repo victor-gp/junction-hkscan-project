@@ -4,7 +4,7 @@ import Link from 'next/link'
 import Layout from '../components/layout.js'
 import SlowLink from '../utils/SlowLink.js'
 import { content } from '../text-content.js'
-import ReactPlayer from 'react-player'
+import VideoPlayer from '../components/video-player.js'
 
 export default function Home() {
 
@@ -94,13 +94,7 @@ export default function Home() {
 
         {/* video-embedding example */}
         <section className={styles.work}>
-          <ReactPlayer
-            url="https://youtu.be/UC5IqjUYRHQ"
-            controls
-            playbackRate={2}
-            width="896px"
-            height="504px"
-          />
+          <VideoPlayer video_url="https://youtu.be/UC5IqjUYRHQ" />
         </section>
 
       </main>
