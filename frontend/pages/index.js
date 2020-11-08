@@ -14,7 +14,20 @@ export default function Home() {
 
         <section className={styles.sectionBlock}>
           <h2 className={styles.sectionTitle}>{content.happy_cattle.title}</h2>
+
           <p className={styles.sectionText}>{content.happy_cattle.text1}</p>
+
+          <VideoPlayer video_url="https://www.youtube.com/watch?v=NpEaa2P7qZI" />
+
+          <p className={styles.sectionText}>{content.happy_cattle.text2}</p>
+
+          {/* Danone video goes here. */}
+
+          <p className={styles.sectionText}>{content.happy_cattle.text3}</p>
+
+          {/* Three data boxes go here */}
+
+          <p className={styles.sectionText}>{content.happy_cattle.text4}</p>
         </section>
 
 
