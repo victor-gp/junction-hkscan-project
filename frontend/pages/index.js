@@ -67,76 +67,9 @@ export default function Home() {
           <p className={styles.sectionText}>{content.our_meat_lovers_community.text1}</p>
         </section>
 
-        <section className={styles.sectionBlock} style={{paddingBottom: '600px'}}>
+        <section className={styles.sectionBlock}>
           {/* TODO */}
           <p className={styles.sectionText}>footer elements pending</p>
-          <p className={styles.sectionText}>everything past here is reference code for me, I will remove it later on</p>
-        </section>
-
-
-        <section className={styles.topPanel}>
-
-          {/* left */}
-          <div className={styles.intro}>
-            <div className={styles.hi}> hi! we're hkscan.ai.</div>
-            <div className={styles.blurb}>
-              hkscan.AI provides a consolidated suite of data visualization and data science
-              powered that helps
-                                  <span style={{ color: "#FC3F42" }}> </span>
-              <span style={{ color: "#2191FB" }}> </span>
-            </div>
-          </div>
-
-          {/* right */}
-          <div className={styles.circleContainer}>
-            <center> <img src="/images/work/HKScan_logo.png" />
-            </center>
-          </div>
-
-        </section>
-
-        {/*  WORK */}
-        <section className={styles.work}>
-
-          <div className={styles.titles}>What Services Do We Provide? </div>
-
-          <div className={styles.threeitemrow}>
-
-            {/* barclays */}
-            <div className={styles.item}>
-              <SlowLink href="/ask">
-                <div className={`${styles.rectangle} ${styles.mastercardRect} ${styles.grow} ${styles.cappedSize}`}>
-                  <img src="/images/work/doc.png" />
-                </div>
-              </SlowLink>
-              <div className={styles.captions}>Intelligent Understanding</div>
-
-            </div>
-
-            {/* moderna */}
-            <div className={styles.item}>
-              <SlowLink href="/ask">
-                <div className={`${styles.rectangle} ${styles.mastercardRect} ${styles.grow} ${styles.cappedSize}`}>
-                  <img src="/images/work/moderna.png" />
-                </div>
-              </SlowLink>
-              <div className={styles.captions}>Custom Responses</div>
-
-            </div>
-
-            {/* mastercard */}
-            <div className={styles.item}>
-              <SlowLink href="/mastercard">
-                <div className={`${styles.rectangle} ${styles.mastercardRect} ${styles.grow} ${styles.cappedSize}`}>
-                  <img src="/images/work/chrome.png" />
-                </div>
-              </SlowLink>
-              <div className={styles.captions}>hKScan Chrome</div>
-
-            </div>
-
-          </div>
-
         </section>
       </main>
 
