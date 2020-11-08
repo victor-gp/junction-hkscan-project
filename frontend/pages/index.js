@@ -21,7 +21,7 @@ export default function Home() {
 
           <p className={styles.sectionText}>{content.happy_cattle.text2}</p>
 
-          {/* Danone video goes here. */}
+          <VideoPlayer video_url="https://youtu.be/08TI1RKj54g" />
 
           <p className={styles.sectionText}>{content.happy_cattle.text3}</p>
 
