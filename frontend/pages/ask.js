@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import styles from '../components/barclays.module.css'
 import Link from 'next/link'
 import Layout from '../components/layout.js'
 import SlowLink from '../utils/SlowLink.js'
