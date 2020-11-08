@@ -1,5 +1,11 @@
 import ReactPlayer from 'react-player'
 
+const center_style = {
+    display: "block",
+    margin: "0 auto",
+};
+
+
 export default class VideoPlayer extends ReactPlayer {
     render() {
         return <ReactPlayer
@@ -8,6 +14,7 @@ export default class VideoPlayer extends ReactPlayer {
             playbackRate={2}
             width="896px"
             height="504px"
+            style={center_style}
         />
     }
 }

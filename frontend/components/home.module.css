@@ -1,11 +1,11 @@
 .sectionBlock{
-  margin: 60px;
+  margin: 60px auto;
+  width: 80%
 }
 
 .sectionTitle{
   font-weight: bold;
   font-size: 55px;
-  width: 100%;
   margin: 30px;
   text-align: center;
 }
@@ -20,6 +20,7 @@
   text-align: justify;
   margin: 20px;
 }
+
 
 
 .topPanel{
