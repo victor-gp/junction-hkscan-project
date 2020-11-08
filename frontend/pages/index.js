@@ -26,12 +26,12 @@ export default function Home() {
           {/* TODO */}
           <p className={styles.sectionText}>(three data boxes pending)</p>
           <p className={styles.sectionText}>{content.happy_cattle.text4}</p>
+          <VideoPlayer video_url="https://youtu.be/fL9xqqR5ziY" />
         </section>
 
         <section className={styles.sectionBlock}>
           <h2 className={styles.sectionTitle}>{content.meat_culture.title}</h2>
           <p className={styles.sectionText}>{content.meat_culture.text1}</p>
-          <VideoPlayer video_url="https://vimeo.com/476724963" />
 
           <h3 className={styles.subsectionTitle}>{content.our_meats.title}</h3>
           {/* TODO */}

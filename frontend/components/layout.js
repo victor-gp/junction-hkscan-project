@@ -56,7 +56,7 @@ export default class Layout extends React.Component{
       <Head>
         <script src="https://kit.fontawesome.com/9a2254ebc5.js" crossOrigin="anonymous"></script>
         <link rel="icon" href="/favicon.ico" />
-        <title>HKScan => Sustainability</title>
+        <title>HKScan =&gt; Sustainability</title>
 
         <meta
           name="description"
