@@ -4,13 +4,66 @@ import Link from 'next/link'
 import Layout from '../components/layout.js'
 import SlowLink from '../utils/SlowLink.js'
 import { content } from '../text-content.js'
-import ReactPlayer from 'react-player'
+import VideoPlayer from '../components/video-player.js'
 
 export default function Home() {
 
   return (
     <Layout>
       <main>
+
+        <section className={styles.sectionBlock}>
+          <h2 className={styles.sectionTitle}>{content.happy_cattle.title}</h2>
+          <p className={styles.sectionText}>{content.happy_cattle.text1}</p>
+          <VideoPlayer video_url="https://youtu.be/NpEaa2P7qZI" />
+          <p className={styles.sectionText}>{content.happy_cattle.text2}</p>
+          <VideoPlayer video_url="https://youtu.be/08TI1RKj54g" />
+          <p className={styles.sectionText}>{content.happy_cattle.text3}</p>
+          {/* TODO */}
+          <p className={styles.sectionText}>(three data boxes pending)</p>
+          <p className={styles.sectionText}>{content.happy_cattle.text4}</p>
+        </section>
+
+        <section className={styles.sectionBlock}>
+          <h2 className={styles.sectionTitle}>{content.meat_culture.title}</h2>
+          <p className={styles.sectionText}>{content.meat_culture.text1}</p>
+          <VideoPlayer video_url="https://youtu.be/NpEaa2P7qZI" />
+
+          <h3 className={styles.subsectionTitle}>{content.our_meats.title}</h3>
+          {/* TODO */}
+          <p className={styles.sectionText}>(animal photos pending)</p>
+
+          <h3 className={styles.subsectionTitle}>{content.our_cuts.title}</h3>
+          {/* TODO */}
+          <p className={styles.sectionText}>(cow parts photo + names pending)</p>
+
+          <h3 className={styles.subsectionTitle}>{content.our_cooking_tips.title}</h3>
+          {/* TODO */}
+          <p className={styles.sectionText}>(coooking temperature pic pending)</p>
+          <p className={styles.sectionText}>{content.our_cooking_tips.text1}</p>
+          <VideoPlayer video_url="https://youtu.be/UC5IqjUYRHQ" />
+          <p className={styles.sectionText}>{content.our_cooking_tips.text2}</p>
+        </section>
+
+        <section className={styles.sectionBlock}>
+          <h2 className={styles.sectionTitle}>{content.our_meat_store.title}</h2>
+          <p className={styles.sectionText}>{content.our_meat_store.text1}</p>
+          {/* TODO */}
+          <p className={styles.sectionText}>(food e-shop image pending)</p>
+        </section>
+
+        <section className={styles.sectionBlock}>
+          <h2 className={styles.sectionTitle}>{content.our_meat_lovers_community.title}</h2>
+          <p className={styles.sectionText}>{content.our_meat_lovers_community.text1}</p>
+        </section>
+
+        <section className={styles.sectionBlock} style={{paddingBottom: '600px'}}>
+          {/* TODO */}
+          <p className={styles.sectionText}>footer elements pending</p>
+          <p className={styles.sectionText}>everything past here is reference code for me, I will remove it later on</p>
+        </section>
+
+
 
         <section className={styles.topPanel}>
 
@@ -32,7 +85,6 @@ export default function Home() {
           </div>
 
         </section>
-
 
         {/*  WORK */}
         <section className={styles.work}>
@@ -77,26 +129,6 @@ export default function Home() {
           </div>
 
         </section>
-
-        {/* example with text-content.js */}
-        <section>
-          <div className={styles.work}>
-            <div className={styles.titles}>{content.happy_cattle.title}</div>
-            <div className={styles.blurb}>{content.happy_cattle.text1}</div>
-          </div>
-        </section>
-
-        {/* video-embedding example */}
-        <section className={styles.work}>
-          <ReactPlayer
-            url="https://youtu.be/UC5IqjUYRHQ"
-            controls
-            playbackRate={2}
-            width="896px"
-            height="504px"
-          />
-        </section>
-
       </main>
 
     </Layout>

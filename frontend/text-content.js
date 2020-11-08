@@ -10,6 +10,12 @@ const content = {
         title: 'Meat Culture',
         text1: 'The great pleasure you feel when eating that BBQ, that lamb chop, that entrecôte and all the other dishes that you love so much, it’s all about knowing your Meats.',
     },
+    our_meats: {
+        title: 'Our Meats',
+    },
+    our_cuts: {
+        title: 'Our Cuts',
+    },
     our_cooking_tips: {
         title: 'Our Cooking Tips',
         text1: 'How do you like your meat? Rare, Well Done or in between? Here is a hint to get your meat cooked just as you prefer.',
