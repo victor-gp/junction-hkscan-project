@@ -5,7 +5,6 @@ const center_style = {
     margin: "0 auto",
 };
 
-
 export default class VideoPlayer extends ReactPlayer {
     render() {
         return <ReactPlayer

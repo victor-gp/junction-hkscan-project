@@ -56,9 +56,7 @@ export default class Layout extends React.Component{
       <Head>
         <script src="https://kit.fontawesome.com/9a2254ebc5.js" crossOrigin="anonymous"></script>
         <link rel="icon" href="/favicon.ico" />
-        <title>hkscan.ai
-          
-        </title>
+        <title>HKScan = Sustainability</title>
 
         <meta
           name="description"
@@ -89,7 +87,7 @@ export default class Layout extends React.Component{
           <li className={styles.name}><Link href="/"><a>hkscan</a></Link></li>
           <div onClick={this.menuToggle}>
             {menuButton}
-          </div> 
+          </div>
         </ul>
 
       </nav>
@@ -103,7 +101,7 @@ export default class Layout extends React.Component{
           <div className={styles.chat}>Victor, Cristina, Shivay and Lien.</div>
         </div>
 
-        
+
 
 
 
